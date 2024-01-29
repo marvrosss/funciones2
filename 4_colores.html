@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Funciones Parte 3</title>
+    <style>
+        * {
+            margin: o;
+            padding: 0;
+        }
+
+        body>h2 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container>#color {
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid 1px #ececec;
+            border-radius: 10px;
+        }
+
+        .container>.blue {
+            background-color: blue;
+        }
+
+        .container>.red {
+            background-color: red;
+        }
+
+        .container>.green {
+            background-color: green;
+        }
+
+        .container>.yellow {
+            background-color: yellow;
+        }
+
+        .container2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 25px;
+        }
+
+        .container2>#key {
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            border: solid 1px black;
+            border-radius: 10px;
+        }
+
+        .container3{
+            display: flex;
+            justify-content: center ;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- parte 1 -->
+    <h2>Parte 1</h2>
+    <div class="container">
+        <div id="color" class="blue"></div>
+        <div id="color" class="red"></div>
+        <div id="color" class="green"></div>
+        <div id="color" class="yellow"></div>
+    </div>
+    <!-- parte 2 -->
+    <h2>Parte 2</h2>
+    <div class="container2">
+        <div id="key"></div>
+        <div class="container3"></div>
+    </div>
+
+    
+    <script src="./assets/js/4_colores.js"></script>
+</body>
+
+</html>
